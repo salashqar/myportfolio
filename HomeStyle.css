@@ -10,6 +10,7 @@ body {
 }
 
 /* Header/Blog Title */
+
 .header {
   padding: 30px;
   text-align: center;
@@ -17,13 +18,24 @@ body {
 }
 
 .header h1 {
+  display: inline;
+  position: relative;
   font-size: 50px;
+  font-family: Helvetica, Sans-Serif;
+  letter-spacing: -5px;
+  color: rgba(0,0,255,0.5);
 }
 
+
+    color: rgba(255,0,0,0.5); 
+
+        
+}
+    
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: powderblue;
 }
 
 /* Style the topnav links */
@@ -62,6 +74,7 @@ body {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
+  align-content: center
 }
 
 /* Add a card effect for articles */
